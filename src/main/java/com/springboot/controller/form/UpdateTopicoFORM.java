@@ -30,8 +30,6 @@ public class UpdateTopicoFORM {
 
 	public Topico update(Long id, TopicoRepository topicoRepository) {
 		Topico topico = topicoRepository.getById(id);
-
-		System.out.println(this.titulo);
 		topico.setTitulo(this.titulo);
 		topico.setMensagem(this.mensagem);
 		return topico;
