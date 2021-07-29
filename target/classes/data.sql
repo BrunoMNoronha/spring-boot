@@ -1,8 +1,8 @@
 INSERT INTO USUARIO(username, email, password) VALUES('admin', 'admin@email.com', '$2a$10$goVnT1AaVPKePJdXDQJekeRD5zWYWJ3k.XNoKglc8nsvL200COWna');
 INSERT INTO USUARIO(username, email, password) VALUES('aluno', 'aluno@email.com', '$2a$10$goVnT1AaVPKePJdXDQJekeRD5zWYWJ3k.XNoKglc8nsvL200COWna');
 
-INSERT INTO PERFIL(id, nome) VALUES(1, ‘ROLE_ADMIN’);
-INSERT INTO PERFIL(id, nome) VALUES(2, ‘ROLE_ALUNO’);
+INSERT INTO PERFIL(id, nome) VALUES(1, 'ROLE_ADMIN');
+INSERT INTO PERFIL(id, nome) VALUES(2, 'ROLE_ALUNO');
 
 INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) VALUES(1, 1);
 INSERT INTO USUARIO_PERFIS(usuario_id, perfis_id) VALUES(2, 2);
