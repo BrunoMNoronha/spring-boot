@@ -22,7 +22,7 @@ public class DetailTopicoDTO {
 		this.titulo = topico.getTitulo();
 		this.mensagem = topico.getMensagem();
 		this.dataCriacao = topico.getDataCriacao();
-		this.nomeAutor = topico.getAutor().getNome();
+		this.nomeAutor = topico.getAutor().getUsername();
 		this.status = topico.getStatus();
 		this.respostas = new ArrayList<>();
 
